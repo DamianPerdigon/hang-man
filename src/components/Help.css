@@ -1,0 +1,53 @@
+.help {
+  margin: 20px 0; /* Space above and below the help section */
+  text-align: center; /* Centering the text */
+}
+
+.help-button {
+  padding: 12px 24px; /* Increased padding for a larger click area */
+  font-size: 18px; /* Increased font size for better readability */
+  cursor: pointer; /* Cursor pointer to indicate interactivity */
+  background-color: #ff8c00; /* Orange background color for a playful look */
+  color: white; /* White text for contrast */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  transition: background-color 0.3s, transform 0.1s; /* Smooth transition for visual feedback */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.help-button:hover {
+  background-color: #ffA500; /* Slightly lighter orange on hover for feedback */
+  transform: scale(1.05); /* Slight grow effect for interactivity */
+}
+
+.help-content {
+  margin-top: 15px; /* Increased space between button and content */
+  padding: 20px; /* Increased padding for more space inside the content box */
+  background-color: #fafafa; /* Light background for the content box */
+  border-radius: 10px; /* Rounded corners for a consistent look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out; /* Smooth transition for expanding and fading */
+  overflow: hidden; /* Hide overflow content */
+  max-height: 0; /* Initially hidden */
+  opacity: 0; /* Initially transparent */
+}
+
+.help-content h2 {
+  font-size: 26px; /* Increased font size for headings */
+  color: #ff8c00; /* Orange color for headings to match the button */
+  margin-bottom: 15px; /* Increased space below headings */
+}
+
+.help-content p, .help-content ul {
+  font-size: 18px; /* Increased font size for better readability */
+  margin-bottom: 15px; /* Increased space below paragraphs and lists */
+}
+
+.help-content li {
+  margin-bottom: 10px; /* Increased space between list items */
+}
+
+.show {
+  max-height: 1000px; 
+  opacity: 1; /* Fully visible when expanded */
+}

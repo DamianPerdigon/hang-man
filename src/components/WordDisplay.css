@@ -1,0 +1,9 @@
+.word-display {
+  text-align: center; /* Centering the text horizontally */
+  font-size: 2rem; /* Increased for better readability */
+  margin-bottom: 20px; /* Space below the word display */
+  letter-spacing: 5px; /* Increased spacing for visual separation */
+  color: #8a2be2; /* Color consistent with other elements */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle effect */
+  font-weight: bold; /* Bold text to stand out */
+}

@@ -1,0 +1,13 @@
+.gameStatus {
+  margin: 20px 0;  /* Space above and below the game status section */
+  font-size: 1.2rem;  /* Slightly larger font for better readability */
+  text-align: center;  /* Centered text for a balanced look */
+  color: #32CD32;  /* Lime Green color for a positive and energetic vibe */
+}
+
+.gameStatus p {
+  margin: 5px 0;  /* Space above and below each paragraph */
+  line-height: 1.5;  /* Spacing between lines for better readability */
+  color: inherit;  /* Ensures the text inherits the color from the parent */
+  font-weight: bold;  /* Bold text for emphasis */
+}

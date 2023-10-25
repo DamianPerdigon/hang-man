@@ -1,0 +1,8 @@
+.hangman {
+  margin: 20px 0; /* Space above and below the hangman section */
+  font-size: 2rem; /* Large font size for visibility */
+  text-align: center; /* Centered text */
+  color: #ff8c00; /* Orange text color for a playful look */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  user-select: none; /* Prevent text selection */
+}

@@ -1,0 +1,32 @@
+.keyboard {
+  margin: 20px 0; /* Space above and below the keyboard */
+  text-align: center; /* Centering the buttons */
+  user-select: none; /* Prevent text selection */
+}
+
+.keyboard button {
+  margin: 5px; /* Space between buttons */
+  padding: 15px 20px; /* Padding increased for bigger touch targets */
+  font-size: 1.2rem; /* Increased font size for better readability */
+  cursor: pointer; /* Cursor pointer to indicate interactivity */
+  border: none; /* Remove default border */
+  background-color: #8a2be2; /* Purple background color consistent with the theme */
+  color: #ffffff; /* White text for contrast */
+  border-radius: 5px; /* Rounded corners for a softer look */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: background-color 0.3s, transform 0.1s; /* Smooth transition for feedback */
+}
+
+.keyboard button:hover {
+  background-color: #9932cc; /* Slightly darker shade on hover for feedback */
+}
+
+.keyboard button:active {
+  transform: scale(0.95); /* Slight shrink effect when button is pressed */
+}
+
+.keyboard button.guessed {
+  background-color: #d3d3d3; /* Greyed out for guessed letters */
+  color: #a9a9a9; /* Lighter text color for guessed letters */
+  cursor: not-allowed; /* Cursor to indicate the letter can't be clicked again */
+}
